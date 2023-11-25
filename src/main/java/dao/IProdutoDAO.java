@@ -12,7 +12,7 @@ import model.Produto;
  *
  * @author Aluno
  */
-public interface ProdutoDAO {
+public interface IProdutoDAO {
     public void inserir(Produto produto);
     public void atualizar(Produto produto);
     public void deletar(int id);

@@ -6,15 +6,15 @@
 package factory;
 
 import dao.OracleProdutoDAO;
-import dao.ProdutoDAO;
+import dao.IProdutoDAO;
 
 /**
  *
  * @author Aluno
  */
-public class OracleDAOFactory implements DAOFactory {
+public class OracleDAOFactory implements IDAOFactory {
     @Override
-    public ProdutoDAO getProdutoDAO() {
+    public IProdutoDAO getProdutoDAO() {
         return new OracleProdutoDAO();
     }
 }

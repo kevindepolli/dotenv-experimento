@@ -13,26 +13,26 @@ import model.Produto;
  *
  * @author Aluno
  */
-public class MySQLProdutoDAO implements ProdutoDAO{
+public class MySQLProdutoDAO implements IProdutoDAO{
     @Override
     public void inserir(Produto produto){
-        System.out.println("Inseri no MySQL!");
+        System.out.println("Inserido no MySQL!");
     }
     
     @Override
     public void atualizar(Produto produto){
-        System.out.println("atualiza no MySQL!");
+        System.out.println("Atualizado no MySQL!");
     }
     
     @Override
     public void deletar(int id){
-        System.out.println("deleta no MySQL!");
+        System.out.println("Deletado no MySQL!");
 
     }
     
     @Override
     public List<Produto> listar(){
-        System.out.println("lista no MySQL!");
+        System.out.println("Listado no MySQL!");
         return new ArrayList<>();
     }
 }

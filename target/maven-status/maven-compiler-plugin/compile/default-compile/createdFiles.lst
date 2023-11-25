@@ -1,1 +1,8 @@
+factory\OracleDAOFactory.class
+factory\DAOFactory.class
 com\ufes\dotenv\experimento\DotenvExperimento.class
+dao\ProdutoDAO.class
+model\Produto.class
+dao\MySQLProdutoDAO.class
+dao\OracleProdutoDAO.class
+factory\MySQLDAOFactory.class

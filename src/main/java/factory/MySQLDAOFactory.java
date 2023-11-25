@@ -6,15 +6,15 @@
 package factory;
 
 import dao.MySQLProdutoDAO;
-import dao.ProdutoDAO;
+import dao.IProdutoDAO;
 
 /**
  *
  * @author Aluno
  */
-public class MySQLDAOFactory implements DAOFactory {
+public class MySQLDAOFactory implements IDAOFactory {
     @Override
-    public ProdutoDAO getProdutoDAO() {
+    public IProdutoDAO getProdutoDAO() {
         return new MySQLProdutoDAO();
     }
 }

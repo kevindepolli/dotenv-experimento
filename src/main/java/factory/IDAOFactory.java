@@ -5,12 +5,12 @@
  */
 package factory;
 
-import dao.ProdutoDAO;
+import dao.IProdutoDAO;
 
 /**
  *
  * @author Aluno
  */
-public interface DAOFactory {
-    public ProdutoDAO getProdutoDAO();
+public interface IDAOFactory {
+    public IProdutoDAO getProdutoDAO();
 }

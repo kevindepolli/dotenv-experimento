@@ -13,26 +13,26 @@ import model.Produto;
  *
  * @author Aluno
  */
-public class OracleProdutoDAO implements ProdutoDAO{
+public class OracleProdutoDAO implements IProdutoDAO{
     @Override
     public void inserir(Produto produto){
-        System.out.println("Inseri no Oracle!");
+        System.out.println("Inserido no Oracle!");
     }
     
     @Override
     public void atualizar(Produto produto){
-        System.out.println("atualiza no Oracle!");
+        System.out.println("Atualizado no Oracle!");
     }
     
     @Override
     public void deletar(int id){
-        System.out.println("deleta no Oracle!");
+        System.out.println("Deletado no Oracle!");
 
     }
     
     @Override
     public List<Produto> listar(){
-        System.out.println("lista no Oracle!");
+        System.out.println("Listado no Oracle!");
         return new ArrayList<>();
     }
 }
